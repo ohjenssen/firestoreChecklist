@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "firebase": "^10.9.0"
+  },
+  "name": "firebasechecklist",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

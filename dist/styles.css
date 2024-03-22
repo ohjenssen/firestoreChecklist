@@ -1,0 +1,159 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#task-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.task {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 00px 0px 0px 20px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-tasks-form {
+    display: flex;
+}
+
+#add-tasks-form label {
+    background-color :darkblue;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px;
+    position: relative;
+    left: 2px;
+    border: 2px solid darkblue;
+}
+
+#add-tasks-form input {
+    padding: 5px 10px;
+    margin: 0px;
+    border: 2px solid darkblue;
+}
+
+#add-tasks-form button {
+    padding: 5px 20px;
+    position: relative;
+    right: 2px;
+    border: 2px solid darkblue;
+    font-weight: 600;
+    background-color: darkgreen;
+    color: white;
+}
+
+.addImageBTN {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.imageBTN {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.deleteBTN {
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+img {
+    max-width: 100px;
+}
+
+.imageContainer {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: none;
+}
+
+.imageBorder {
+    position: absolute;
+    /* left: -50%;
+    top: -50%; */
+    top: 50%;
+    left: 50%;
+}
+.taskImage {
+    position: relative;
+    left: -50%;
+}
+
+/* Imageform */
+.addImageContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: none;
+}
+
+.addImageBorder {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.addImageForm {
+    display: flex;
+}
+
+.addImageInput {
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.addImageBTN {
+    padding: 10px 10px 10px 10px;
+}
+
+.addImageBTN-send {
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+.active {
+    display: block;
+}
